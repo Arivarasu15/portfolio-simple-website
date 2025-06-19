@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div {
+    margin: 20px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding-top:  10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.section-five__title a {
+    color: blue;
+    
+}
+
+.section-three li,.section-four li {
+    list-style: none;
+}
+
+.section-one__name,
+.section-one__role,
+.section-one__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.section-one__name {
+    font-size: 50px;
+}
+
+.section-three {
+    background-color: blue;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    vertical-align: top;
+    height: 200px;
+}
+
+.section-three__desc li {
+    padding-top: 10px;
+
+}
+
+.section-four{
+    background-color: yellowgreen;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    height: 200px;
+
+}
+
+.section-five__desc{
+    padding-bottom: 10px;
+}
+
+
+.container-two{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 20px;
+}
+
+.container-two__input,.container-two__textare,.container-two__textarea,.container-two__submit{
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+   
+    
+}
+
+.container-two__input{
+    padding-top: 20px;
+    border: none;
+    border-bottom: solid black 1px;
+     padding-bottom: 23px;
+     margin-top: 10px;
+}
+
+.container-two__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+
+.container-two__submit{
+    background-color: orangered;
+    margin: 20px;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:15px;
+    border-radius: 50px;
+
+}
